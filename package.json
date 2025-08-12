@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^22.15.18",
+    "axios": "^1.9.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "typescript": "^5.8.3"
+  },
+    "scripts": {
+    "dev": "npx tsc && node index.js",
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.8"
+  }
+}
