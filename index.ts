@@ -22,6 +22,7 @@ console.log("text",text)
     bot.sendMessage(chatId, aiResponse || "Bot không trả lời được.");
     await apiSave(chatHistory);
 console.log("aiResponse",aiResponse)
+console.log("test",aiResponse)
     // Thêm phản hồi của bot vào lịch sử
     // chatHistory.push({ role: "assistant", content: aiResponse || "" });
 
