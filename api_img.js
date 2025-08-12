@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+
 const generateCuteCreature = async (text) => {
   try {
     const response = await axios.post(
